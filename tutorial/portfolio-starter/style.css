@@ -247,11 +247,11 @@ main {
 @media (max-width: 768px) {
 
   main {
-    /* 11a */ grid-template-columns: ________;
+    /* 11a */ grid-template-columns: 1fr;
   }
 
   .gallery {
-    /* 11b */ grid-template-columns: ________;
+    /* 11b */ grid-template-columns: repeat(2, 1fr);
   }
 
   .feature {
@@ -262,7 +262,7 @@ main {
 @media (max-width: 480px) {
 
   .gallery {
-    /* 11c */ grid-template-columns: ________;
+    /* 11c */ grid-template-columns: 1fr;
   }
 
   .feature {
@@ -270,13 +270,13 @@ main {
   }
 
   nav {
-    /* 11d */ flex-direction: ________;
+    /* 11d */ flex-direction: column;
     gap: 0.5rem;
     padding-bottom: 0.75rem;
   }
 
   .hero {
-    /* 11e */ flex-direction: ________;
+    /* 11e */ flex-direction: column;
   }
 
   h1 { font-size: 1.9rem; }
